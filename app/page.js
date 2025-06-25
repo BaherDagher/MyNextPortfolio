@@ -9,8 +9,8 @@ import Services from "../components/Services";
 import Work from "../components/Work";
 
 export default function Home() {
-  return (
-    <>
+   return (
+    <div className="overflow-x-hidden w-full">
       <Navbar />
       <Header />
       <About />
@@ -18,6 +18,6 @@ export default function Home() {
       <Work />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
