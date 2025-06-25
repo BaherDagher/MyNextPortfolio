@@ -3,7 +3,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
-const Navbar = ({ isDarkMode, setIsDarkMode }) => {
+const Navbar = () => {
 
     const [isScroll, setIsScroll] = useState(false)
     const sideMenuRef = useRef();

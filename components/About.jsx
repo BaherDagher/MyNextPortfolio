@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
-const About = ({ isDarkMode }) => {
+const About = () => {
     const skillIcons = [
         { name: 'HTML', icon: '/skills/html.svg' },
         { name: 'CSS', icon: '/skills/css.svg' },
