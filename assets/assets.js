@@ -41,6 +41,7 @@ import worldWideWeb from "./world-wide-web.png";
 import social from "./social.png";
 import behance from "./behance.png";
 import IT from "./information-technology.png";
+import Figma from "./figma2.png";
 
 
 export const assets = {
@@ -87,6 +88,7 @@ export const assets = {
   social,
   behance,
   IT,
+  Figma
 };
 
 export const workData = [
@@ -96,7 +98,7 @@ export const workData = [
     bgImage: '/RealEstate.jpg',
     description:'An interactive and modern real estate web application, designed to simulate a realistic property listing experience tailored for the Egyptian market. The platform features advanced search and filtering, detailed property pages, and a persistent favorites system — along with full admin dashboard capabilities for managing listings seamlessly.',
     demoUrl: 'https://real-estate-app-delta-dun.vercel.app',
-    technologies:'HTML, CSS, JS, MUI, Context, React.js'
+    technologies:'HTML, CSS, JavaScript, Material UI, Context API, React.js'
   },
   {
     title: "E-Commerce Platform",
@@ -104,7 +106,7 @@ export const workData = [
     bgImage: '/DagherMarket.jpg',
     description:'A dynamic and user-centric e-commerce platform crafted for intuitive shopping experiences, focused on delivering a seamless and secure shopping experience for users. The platform supports full user account management, browsing of a dynamic product catalog, secure checkout, and real-time cart and wishlist functionality.',
     demoUrl: 'https://dagher-market.vercel.app',
-    technologies:'HTML, CSS, JS, TailwindCSS, Context, React.js'
+    technologies:'HTML, CSS, JavaScript, TailwindCSS, Context API, React.js'
   },
     {
     title: "Banking Application",
@@ -120,7 +122,7 @@ export const workData = [
     bgImage: '/Movies.jpg',
     description:'A feature-rich and user-adaptive movie browsing platform designed to streamline discovery and engagement. The platform offers intuitive genre-based navigation, real-time search capabilities, and efficient management of favorites and watchlists. With a responsive interface tailored for smooth exploration, it empowers users to track, save, and explore movies effortlessly.',
     demoUrl: 'https://movies-app-blue-theta.vercel.app',
-    technologies:'HTML, CSS, JS, MUI, Redux Toolkit, React.js'
+    technologies:'HTML, CSS, JavaScript, Material UI, Redux Toolkit, React.js'
   },
     {
     title: "Game Reviews ",
@@ -152,7 +154,7 @@ export const serviceData = [
     description: "Building sleek and high-performing mobile apps tailored for today’s users.",
   },
   {
-    icon: assets.behance,
+    icon: assets.Figma,
     title: "UI/UX Design",
     description: "Designing intuitive, engaging interfaces that put users first at every step.",
   },

@@ -22,7 +22,7 @@ const About = () => {
     return (
         <motion.div
             id='about'
-            className='w-full px-[12%] py-10 scroll-mt-20'
+            className="w-11/12 mx-auto py-10 scroll-mt-20 md:w-full md:px-[12%]"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
@@ -55,7 +55,7 @@ const About = () => {
                     transition={{ duration: 0.6, delay: 0.9 }}
                     className='flex-1'
                 >
-                    <p className='mb-10 font-Ovo text-lg'>
+                    <p className='mb-10 font-Ovo text-lg text-justify'>
                         I’m a passionate Junior Frontend Developer motivated to learn, grow, and contribute to impactful projects. I enjoy building user-friendly and interactive web experiences that combine clean design with smooth functionality, while constantly exploring new tools and best practices to stay ahead.
                     </p>
 
@@ -76,7 +76,7 @@ const About = () => {
                                 title: "Education",
                                 items: [
                                     <>
-                                        Front-End and Cross-Platform Mobile Development
+                                        Front-End & Cross-Platform Mobile Development
                                         <div className="ml-4 text-[14px] text-gray-600 dark:text-white/50">Information Technology Institute (ITI)</div>
                                     </>,
                                     <>
