@@ -79,7 +79,7 @@ const Work = () => {
 
                                 <p
                                     className={`
-                                                text-base text-gray-600 leading-snug text-justify transition-all duration-300
+                                                text-base text-gray-600 md:h-44 leading-snug text-justify transition-all duration-300
                                                 lg:line-clamp-none 
                                                 ${isExpanded ? "" : "line-clamp-3"}
                                             `}
@@ -96,17 +96,21 @@ const Work = () => {
                                     {isExpanded ? "See less" : "See more"}
                                 </button>
 
+
                                 <div className="flex flex-col gap-3 mt-2">
-                                    <div className="flex flex-wrap gap-2 justify-center">
-                                        {project.technologies.split(',').map((tech, i) => (
-                                            <span
-                                                key={i}
-                                                className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full border border-gray-300"
-                                            >
-                                                {tech.trim()}
-                                            </span>
-                                        ))}
+                                    <div className="md:h-14 items-center flex flex-wrap justify-center ">
+                                        <div className="flex flex-wrap gap-2 justify-center items-center align- ">
+                                            {project.technologies.split(',').map((tech, i) => (
+                                                <span
+                                                    key={i}
+                                                    className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full border border-gray-300"
+                                                >
+                                                    {tech.trim()}
+                                                </span>
+                                            ))}
+                                        </div>
                                     </div>
+
 
                                     <a
                                         href={project.demoUrl}
@@ -122,6 +126,7 @@ const Work = () => {
                                         />
                                     </a>
                                 </div>
+
                             </div>
                         </motion.div>
                     );
