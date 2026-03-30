@@ -33,7 +33,7 @@ const Header = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        Senior Frontend Software Engineer</motion.h1>
+        Senior Frontend Engineer</motion.h1>
 
       <motion.p
         initial={{ opacity: 0 }}
