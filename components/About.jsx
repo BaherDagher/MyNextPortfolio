@@ -56,8 +56,7 @@ const About = () => {
                     className='flex-1'
                 >
                     <p className='mb-10 font-Ovo text-lg text-justify'>
-                        I’m a passionate Junior Frontend Developer motivated to learn, grow, and contribute to impactful projects. I enjoy building user-friendly and interactive web experiences that combine clean design with smooth functionality, while constantly exploring new tools and best practices to stay ahead.
-                    </p>
+                    I’m a passionate Senior Frontend Software Engineer with proven experience in designing and delivering high-quality, scalable web applications. I specialize in creating user-friendly and interactive interfaces that combine clean design with robust functionality, while continuously exploring new technologies and best practices to drive innovation and maintain technical excellence.                    </p>
 
                     <motion.ul
                         initial={{ opacity: 0 }}
